@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*//////////////////  Header et Container  /////////////////////*/
+#container{
+	width: 65%;
+	margin: 0 auto;
+	margin-top: 2rem;
+	padding:20px;
+	background-color: white;
+	box-shadow: 0px 0px 5px #ccc;
+}
+header{
+	width: 100%;
+}
+#logo{
+	font-family: verdana;
+	font-size: 30px;
+	background-color: #235E3D;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+nav{
+	width: 100%;
+	background-color: #333;
+	font-family: Helvetica;
+	margin-bottom: 20px;
+}
+nav ul{
+	line-height: 46px;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	height: 3rem;
+	width: 23%;
+	transition: 0.2s;
+}
+nav li:hover{
+	transition: 0.2s;
+	background-color: #235E3D;
+}
+nav li a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+/*//////////////////  Main  /////////////////////*/
+/* Changer de theme */
+#changer-theme{
+	position:fixed;
+	top: 40%;
+	background: rgba(51,51,51,0.5);
+	width:50px;
+	height: 100px;
+}
+#to-green, #to-red, #to-blue{
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin: 5px auto;
+	border: 1px solid white;
+	cursor: pointer;
+}
+#to-green{
+	background-color: #235E3D;
+}
+#to-red{
+	background-color: #ca3413;
+}
+#to-blue{
+	background-color: #1f87c4;
+}
+
+/*Slider*/
+.bx-wrapper, .bx-viewport{
+	height: 250px !important;
+}
+
+/*Mainr*/
+#main{
+	width: 100%;
+	overflow: hidden;
+}
+#posts{
+	width: 100%;
+	float: left;
+}
+
+.articulo{
+	color:#333;
+	padding: 8px;
+	text-align: justify;
+	margin-bottom: 8px;
+}
+.articulo p{
+	margin: 8px 0;
+}
+.voir-plus{
+	padding: 15px;
+	background-color: #235E3D;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 15%;
+}
+
+/*/////// Sidebar ////////*/
+
+#sidebar{
+	float: left;
+	width: 100%;
+	color: #333;
+	padding: 1%;
+}
+#sidebar h3{
+	text-align: center;
+	margin: 10px 0;
+	line-height: 10px;
+	background: url(../img/lines.png) repeat-x;
+}
+#sidebar img{
+	width: 100%;
+}
+#sidebar p{
+	text-align: justify;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	width: 90%;
+}
+form input[type="submit"]{
+	background: #ccc;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 600px){
+	#posts{
+		width: 65%;
+	}
+	#sidebar{
+		width: 33%;
+	}
+}
+/*about*/
+#box{
+	width: 60%;
+	float: left;
+}
+
+/*Horloge*/
+#horloge{
+	font-size: 40px;
+	font-weight: bold;
+	color: #333;
+	border: 5px solid #333;
+	width: 90%;
+	text-align: center;
+	padding: 30px 0;
+	margin-top: 2rem;
+}
+
+/*contact*/
+#form_contact{
+	width: 60%;
+	margin: 10px auto;
+}
+#form_contact label{
+	width: 100%;
+}
+#form_contact input, #form_contact select {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.help-block, .form-error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 95%;
+    display: block;
+}
+
+/*///////////////// FOOTER /////////////////////////*/
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 1rem;
+	width: 71%;
+	margin:0 auto;
+	margin-top: 2rem;
+	height: 50px;
+	clear: both;
+	background: rgba(51,51,51,0.70);
+}
+.monter{
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: white;
+}

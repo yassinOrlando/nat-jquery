@@ -1,0 +1,18 @@
+body{
+	background-image: url(../img/cielo.jpg);
+	background-attachment: fixed;
+	font-family: Helvetica;
+}
+/*//////////////////  Header et Container  /////////////////////*/
+#logo{
+	background-color: #1f87c4;
+}
+nav li:hover{
+	background-color: #1f87c4;
+}
+
+/*//////////////////  Main  /////////////////////*/
+/*Mainr*/
+.voir-plus{
+	background-color: #1f87c4;
+}

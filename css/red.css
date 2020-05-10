@@ -1,0 +1,18 @@
+body{
+	background-image: url(../img/rojo.jpg);
+	background-attachment: fixed;
+	font-family: Helvetica;
+}
+/*//////////////////  Header et Container  /////////////////////*/
+#logo{
+	background-color: #ca3413;
+}
+nav li:hover{
+	background-color: #ca3413;
+}
+
+/*//////////////////  Main  /////////////////////*/
+/*Mainr*/
+.voir-plus{
+	background-color: #ca3413;
+}

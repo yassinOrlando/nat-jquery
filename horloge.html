@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projet JS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" id="theme" href="css/green.css">
+	<link rel="stylesheet" type="text/css" href="">
+
+	<!-- jQuery -->
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+ 	<!-- Moment -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js" ></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/locale/fr.js" ></script>
+</head>
+<body>
+	<div id="changer-theme">
+		<div id="to-green"></div>
+		<div id="to-red"></div>
+		<div id="to-blue"></div>
+	</div>
+	<section id="container">
+<!--/////7////////////Header/////////////////////// -->
+		<header>
+			<div id="logo">
+				<h1>Projet JS</h1>
+			</div>
+			<!-- /////Nav//////// -->
+			<nav>
+				<ul>
+					<li><a href="index.html"> Accueil </a></li>
+					<li><a href="horloge.html"> Horloge </a></li>
+					<li><a href="about.html"> Mes infos </a></li>
+					<li><a href="contact.html"> Contact </a></li>
+				</ul>
+			</nav>
+		</header>
+<!--/////7////////////MAIN/////////////////////// -->
+		<!-- /////Main//////// -->
+		<section id="main">
+			<h2> A propos de: </h2>
+			<section id="box">
+				<!--  ajouter un horloge  -->
+				<div id="horloge">
+					
+				</div>
+			</section>
+			<!-- /////aside//////// -->
+			<aside id="sidebar">
+				<div id="about">
+					<h3> Qui suis-je? </h3>
+					<img src="img/caracol.jpg">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+				<form action="" method="POST">
+					<h4>Indentifiez-vous</h4><br>
+					<label for="nom"> Nom: </label><br>
+					<input type="text" name="nom" id="form_name">
+
+					<label for="email"> Email: </label><br>
+					<input type="email" name="email" id="form_email">
+
+					<label for="password"> Mot de passe: </label><br>
+					<input type="password" name="password">
+
+					<input type="submit" value="Envoyer">
+
+				</form>
+			</aside>
+		</section>
+	</section>
+<!--/////7////////////aside/////////////////////// -->
+	<footer>
+		<p> Yassín Orlando Vázquez &copy; 22/04/2020, Anglet, France  </p>
+
+		<a href="#" class="monter"> Aller au top </a>
+	</footer>
+<!-- Scripts -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

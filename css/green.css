@@ -1,0 +1,18 @@
+body{
+	background-image: url(../img/hojas.jpg);
+	background-attachment: fixed;
+	font-family: Helvetica;
+}
+/*//////////////////  Header et Container  /////////////////////*/
+#logo{
+	background-color: #235E3D;
+}
+nav li:hover{
+	background-color: #235E3D;
+}
+
+/*//////////////////  Main  /////////////////////*/
+/*Mainr*/
+.voir-plus{
+	background-color: #235E3D;
+}
